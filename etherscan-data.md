@@ -57,8 +57,8 @@ In the end, we have : 685254637.152972920186653993 * 1.0265844964853230878268275
 Let's take an example with BAT-A
 You need to go to the ERC-20 contract of the token in our example : https://etherscan.io/address/0x0D8775F648430679A709E98d2b0Cb6250d2887EF#readContract
 Then you need to have the address of the join smart contract of the token of Maker : here is a great list
-https://github.com/nanexcool/daistats/blob/master/src/addresses.json : for example we have BAT :  "MCD_JOIN_BAT_A": "0x3D0B1912B66114d4096F48A8CEe3A56C231772cA"
-you will then need to call balanceOf(0x3D0B1912B66114d4096F48A8CEe3A56C231772cA) to have the amount of tokens locked in the protocol here :  30,239,717.683305264361221428 (which is the value announced)
+https://github.com/nanexcool/daistats/blob/master/src/addresses.json : for example we have for BAT the join contract address :  "MCD_JOIN_BAT_A": "0x3D0B1912B66114d4096F48A8CEe3A56C231772cA"
+you will then need to call balanceOf(0x3D0B1912B66114d4096F48A8CEe3A56C231772cA) in ther ERC-20 smart contract to have the amount of tokens locked in the protocol here :  30,239,717.683305264361221428 (which is the value announced)
 
 -- Additional ressources that you may find useful :
 
